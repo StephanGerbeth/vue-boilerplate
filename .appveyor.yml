@@ -1,7 +1,7 @@
 version: "{build}"
 
 install:
-  - ps: Install-Module nvm
+  - ps: Install-Module ps-nvm
   - nvm install
   - npm install
   - npm update
