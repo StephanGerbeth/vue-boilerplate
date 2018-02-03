@@ -6,7 +6,7 @@ environment:
 
 install:
   - ps: $env:package_version = (Get-Content -Raw -Path .nvmrc)
-  - ps: Update-AppveyorBuild -Version "$env:package_version-$env:APPVEYOR_BUILD_NUMBER"
+  - ps: Install-Product node $env:nodejs_version
   - npm install
   - npm update
 
