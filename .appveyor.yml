@@ -1,7 +1,7 @@
 version: "{build}"
 
 install:
-  - ps: Install-Module -Name nvm
+  - ps: Install-Module -Name nvm -RequiredVersion 1.6.0
   - nvm install
   - npm install
   - npm update
