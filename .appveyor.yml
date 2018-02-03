@@ -2,7 +2,7 @@ version: "{build}"
 
 install:
   - ps: $env:nodejs_version = (Get-Content -Raw -Path .nvmrc)
-  - ps: Write-Host "test : $env:nodejs_version"
+  - ps: "test : $env:nodejs_version"
   - ps: Install-Product node "$($env:nodejs_version)"
   - npm install
   - npm update
