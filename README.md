@@ -1,3 +1,6 @@
 [![OSX/Linux Build Status](https://travis-ci.org/StephanGerbeth/vue-boilerplate.svg?branch=master)](https://travis-ci.org/StephanGerbeth/vue-boilerplate)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/nu2a8y0pn15m1rr7/branch/master?svg=true)](https://ci.appveyor.com/project/StephanGerbeth/vue-boilerplate/branch/master)
-[![node (scoped)](https://img.shields.io/node/v/@stdlib/stdlib.svg)](https://github.com/StephanGerbeth/vue-boilerplate)
+
+[![Node Security Status](https://nodesecurity.io/orgs/grabarz-and-partner/projects/7c84e402-f2b3-4753-ab60-286eb3960c0d/badge)](https://nodesecurity.io/orgs/grabarz-and-partner/projects/7c84e402-f2b3-4753-ab60-286eb3960c0d)
+[![Dependency Status](https://img.shields.io/david/StephanGerbeth/vue-boilerplate.svg)](https://github.com/StephanGerbeth/vue-boilerplate)
+[![devDependency Status](https://img.shields.io/david/dev/StephanGerbeth/vue-boilerplate.svg)](https://github.com/StephanGerbeth/vue-boilerplate)
