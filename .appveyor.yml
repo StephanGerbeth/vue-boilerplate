@@ -1,12 +1,8 @@
 version: "{build}"
 
-environment:
-  matrix:
-    - nodejs_version: 5.1.0
-
 install:
   - ps: $env:nodejs_version = (Get-Content -Raw -Path .nvmrc)
-  - ps: echo "test : $env:nodejs_version"
+  - ps: Write-Host "test : $env:nodejs_version"
   - ps: Install-Product node "$($env:nodejs_version)"
   - npm install
   - npm update
