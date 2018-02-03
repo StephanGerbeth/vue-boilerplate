@@ -4,3 +4,5 @@
 [![Node Security Status](https://nodesecurity.io/orgs/grabarz-and-partner/projects/7c84e402-f2b3-4753-ab60-286eb3960c0d/badge)](https://nodesecurity.io/orgs/grabarz-and-partner/projects/7c84e402-f2b3-4753-ab60-286eb3960c0d)
 [![Dependency Status](https://img.shields.io/david/StephanGerbeth/vue-boilerplate.svg)](https://github.com/StephanGerbeth/vue-boilerplate)
 [![devDependency Status](https://img.shields.io/david/dev/StephanGerbeth/vue-boilerplate.svg)](https://github.com/StephanGerbeth/vue-boilerplate)
+
+[![HitCount](http://hits.dwyl.io/StephanGerbeth/vue-boilerplate.svg)](http://hits.dwyl.io/StephanGerbeth/vue-boilerplate)
