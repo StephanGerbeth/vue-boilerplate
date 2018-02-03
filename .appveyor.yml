@@ -1,0 +1,19 @@
+version: "{build}"
+
+install:
+  - ps: Install-Module nvm
+  - nvm install
+  - npm install
+  - npm update
+
+build: off
+
+test_script:
+  - node --version && npm --version
+  - npm test
+
+cache:
+  - node_modules            # local npm modules
+
+matrix:
+  fast_finish: true

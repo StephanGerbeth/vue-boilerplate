@@ -2,15 +2,3 @@ language: node_js
 os:
   - linux
   - osx
-  - windows
-matrix:
-  fast_finish: true
-before_install:
-  - git clone https://github.com/creationix/nvm.git /tmp/.nvm;
-    source /tmp/.nvm/nvm.sh;
-    nvm install $NODE_VERSION;
-    nvm use --delete-prefix $NODE_VERSION;
-install:
-  - npm install
-script:
-  - npm test
