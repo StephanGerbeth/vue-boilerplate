@@ -1,6 +1,6 @@
 // ESLint rules
 // ------------
-// rule definition are described at https://eslint.org/docs/rules/
+// rule definitions are described at https://eslint.org/docs/rules/
 {
   root: true,
   parser: 'babel-eslint',

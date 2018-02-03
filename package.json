@@ -6,15 +6,14 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "eslint --ext .js,.vue --ignore-path .gitignore ./",
     "dev": "node ./env/nuxt/server.js",
     "build": "nuxt build --config-file env/nuxt/config.js",
     "start": "cross-env NODE_ENV=production node ./env/nuxt/server.js",
-    "static": "nuxt generate --config-file env/nuxt/config.js",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ./"
+    "static": "nuxt generate --config-file env/nuxt/config.js"
   },
   "pre-commit": [
-    "lint"
+    "test"
   ],
   "devDependencies": {
     "babel-eslint": "^8.2.1",
