@@ -1,9 +1,12 @@
 version: "{build}"
 
+environment:
+  matrix:
+    - nodejs_version: 5.1.0
+
 install:
-  - ps: Install-Module -Name ps-nvm
-  - nvm
-  - nvm install
+  - ps: $env:package_version = (Get-Content -Raw -Path package.json | ConvertFrom-Json)
+  - ps: Update-AppveyorBuild -Version "$env:package_version-$env:APPVEYOR_BUILD_NUMBER"
   - npm install
   - npm update
 
