@@ -1,0 +1,23 @@
+// ESLint rules
+// ------------
+// rule definition are described at https://eslint.org/docs/rules/
+{
+  root: true,
+  parser: 'babel-eslint',
+  parserOptions: {
+    sourceType: 'module'
+  },
+  env: {
+    browser: true,
+    node: true,
+    es6: true
+  },
+  plugins: [
+    "html"
+  ],
+  extends: 'standard',
+  rules: {
+    "no-debugger": 0,
+    "semi": [2, "always"]
+  }
+}

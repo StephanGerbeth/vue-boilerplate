@@ -1,0 +1,17 @@
+<template>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          Home
+        </li>
+        <li>
+          Link1
+        </li>
+        <li>
+          Link2
+        </li>
+      </ul>
+    </nav>
+  </header>
+</template>

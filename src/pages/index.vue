@@ -1,0 +1,3 @@
+<template>
+  <h1>Hello world! 1234</h1>
+</template>
