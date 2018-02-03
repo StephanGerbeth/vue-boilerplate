@@ -5,7 +5,7 @@ environment:
     - nodejs_version: 5.1.0
 
 install:
-  - ps: $env:package_version = (Get-Content -Raw -Path package.json | ConvertFrom-Json)
+  - ps: $env:package_version = (Get-Content -Raw -Path .nvmrc)
   - ps: Update-AppveyorBuild -Version "$env:package_version-$env:APPVEYOR_BUILD_NUMBER"
   - npm install
   - npm update
