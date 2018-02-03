@@ -7,4 +7,3 @@
 [![devDependency Status](https://img.shields.io/david/dev/StephanGerbeth/vue-boilerplate.svg)](https://github.com/StephanGerbeth/vue-boilerplate)
 
 [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")
-[![HitCount](http://hits.dwyl.io/StephanGerbeth/vue-boilerplate.svg)](http://hits.dwyl.io/StephanGerbeth/vue-boilerplate)
