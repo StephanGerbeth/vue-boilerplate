@@ -18,4 +18,6 @@
       PageFooter
     }
   };
+
+  console.log('VOILA');
 </script>

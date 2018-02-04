@@ -1,4 +1,7 @@
 module.exports = {
+  dev: (process.env.NODE_ENV !== 'production'),
+  srcDir: 'src/',
+
   build: {
     analyze: true,
     babel: {
@@ -12,8 +15,10 @@ module.exports = {
     }
   },
 
-  dev: (process.env.NODE_ENV !== 'production'),
-  srcDir: 'src/',
+  modules: [
+    '@nuxtjs/webpackmonitor'
+  ],
+
   head: {
     meta: [
       {charset: 'utf-8'},
