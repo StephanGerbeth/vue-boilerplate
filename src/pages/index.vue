@@ -1,3 +1,17 @@
 <template>
-  <h1>Hello world! 1234</h1>
+  <div class="Content">
+    <div class="container">
+      <h1 class="Content__Title">{{ $t('home.title') }}</h1>
+      <p>{{ $t('home.introduction') }}</p>
+    </div>
+  </div>
 </template>
+
+<script>
+export default {
+  head() {
+    console.log('toll', this.$route);
+    return { title: this.$t('home.title') }
+  }
+}
+</script>

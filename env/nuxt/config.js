@@ -3,7 +3,8 @@ module.exports = {
   srcDir: 'src/',
 
   build: {
-    analyze: true,
+
+    analyze: false,
     babel: {
       presets: [
         ['vue-app', {
@@ -16,7 +17,33 @@ module.exports = {
   },
 
   modules: [
-    '@nuxtjs/webpackmonitor'
+    ['nuxt-i18n', {
+      locales: [
+        {
+          code: 'en',
+          iso: 'en-US',
+          name: 'English'
+        },
+        {
+          code: 'de',
+          iso: 'de-DE',
+          name: 'German'
+        }
+      ],
+      defaultLocale: 'de',
+      noPrefixDefaultLocale: false,
+      redirectRootToLocale: 'de',
+      vueI18n: {
+        messages: require('../../src/content/content.json'),
+        fallbackLocale: 'de'
+      },
+      routes: {
+
+      },
+      ignorePaths: [
+
+      ]
+    }]
   ],
 
   head: {
