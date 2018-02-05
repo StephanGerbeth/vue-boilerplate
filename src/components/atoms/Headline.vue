@@ -11,5 +11,5 @@ export default {
       default: 'Headline'
     }
   }
-}
+};
 </script>

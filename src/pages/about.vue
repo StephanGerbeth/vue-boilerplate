@@ -8,24 +8,24 @@
 </template>
 
 <script>
-  import Headline from '~/components/atoms/Headline'
+  import Headline from '~/components/atoms/Headline';
 
   export default {
     components: {
       Headline
     },
 
-    data() {
+    data () {
       return {
         headline: {
           content: this.$t('about.title')
         }
-      }
+      };
     },
 
-    head() {
+    head () {
       console.log('toll', this.$route, this.$t('about.title'));
-      return { title: this.$t('about.title') }
+      return { title: this.$t('about.title') };
     }
-  }
+  };
 </script>

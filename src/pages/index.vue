@@ -9,9 +9,9 @@
 
 <script>
 export default {
-  head() {
+  head () {
     console.log('toll', this.$route);
-    return { title: this.$t('home.title') }
+    return { title: this.$t('home.title') };
   }
-}
+};
 </script>
