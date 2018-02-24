@@ -2,8 +2,10 @@
 /.nuxt
 /dist
 /node_modules
-/src/static/favicon
-/env/nuxt/config/global/favicon.json
+/src/static/favicon/*
+!/src/static/favicon/favicon.png
+
+#/env/nuxt/config/global/favicon.json
 
 # IntelliJ project files
 .idea
