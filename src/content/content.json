@@ -1,4 +1,4 @@
- {
+{
   "de": {
     "links": {
       "home": "Home",
@@ -28,7 +28,7 @@
     },
     "about": {
       "title": "About",
-      "introduction": "English: This page is made to give you more informations."
+      "introduction": "English: This page is made to give you more information."
     }
   }
 }

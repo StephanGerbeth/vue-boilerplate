@@ -9,15 +9,15 @@
 </template>
 
 <script>
-  import PageHeader from '../components/page/Header';
-  import PageFooter from '../components/page/Footer';
+import PageHeader from '../components/page/Header';
+import PageFooter from '../components/page/Footer';
 
-  export default {
-    components: {
-      PageHeader,
-      PageFooter
-    }
-  };
+export default {
+  components: {
+    PageHeader,
+    PageFooter
+  }
+};
 
-  console.log('VOILA');
+console.log('VOILA');
 </script>

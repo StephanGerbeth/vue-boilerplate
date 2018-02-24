@@ -1,35 +1,32 @@
+const webpackPlugins = require('./config/webpack/plugins');
+const webpackModules = require('./config/webpack/modules');
+process.env.DEBUG = 'nuxt:*';
 module.exports = {
-  dev: (process.env.NODE_ENV !== 'production'),
+  dev: (process.env.NODE_ENV === 'development'),
   srcDir: 'src/',
 
   build: {
-
     analyze: false,
-    babel: {
-      presets: [
-        ['vue-app', {
-          targets: {
-            browsers: ['last 2 versions']
-          }
-        }]
-      ]
+
+    extend (config, { isClient }) {
+      // if (process.env.NODE_ENV !== 'development') {
+      webpackPlugins(config.plugins, this.options.srcDir);
+      webpackModules(config.module);
+      // }
     }
   },
 
   modules: [
     ['nuxt-i18n', {
-      locales: [
-        {
-          code: 'en',
-          iso: 'en-US',
-          name: 'English'
-        },
-        {
-          code: 'de',
-          iso: 'de-DE',
-          name: 'German'
-        }
-      ],
+      locales: [{
+        code: 'en',
+        iso: 'en-US',
+        name: 'English'
+      }, {
+        code: 'de',
+        iso: 'de-DE',
+        name: 'German'
+      }],
       defaultLocale: 'de',
       noPrefixDefaultLocale: false,
       redirectRootToLocale: 'de',
@@ -37,12 +34,8 @@ module.exports = {
         messages: require('../../src/content/content.json'),
         fallbackLocale: 'de'
       },
-      routes: {
-
-      },
-      ignorePaths: [
-
-      ]
+      routes: {},
+      ignorePaths: []
     }]
   ],
 

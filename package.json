@@ -10,32 +10,47 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run lint",
-    "dev": "node ./env/nuxt/server.js",
-    "build": "nuxt build --config-file env/nuxt/config.js",
+    "dev": "cross-env NODE_ENV=development node ./env/nuxt/server.js",
+    "build": "cross-env NODE_ENV=build nuxt build --config-file env/nuxt/config.js",
     "start": "cross-env NODE_ENV=production node ./env/nuxt/server.js",
-    "static": "nuxt generate --config-file env/nuxt/config.js",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ./"
+    "static": "cross-env NODE_ENV=static nuxt generate --config-file env/nuxt/config.js",
+    "lint": "eslint --fix --ext .js,.vue --ext .json --ignore-path .gitignore ./",
+    "browserslist": "npx browserslist"
   },
   "pre-commit": [
     "test"
   ],
   "devDependencies": {
     "babel-eslint": "^8.2.1",
+    "babel-preset-vue-app": "^2.0.0",
     "cross-env": "^5.1.3",
     "eslint": "^4.16.0",
-    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-config-standard": "^11.0.0",
     "eslint-plugin-html": "^4.0.2",
     "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.2.2",
+    "favicons": "^4.8.6",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-webp": "^4.1.0",
+    "imagemin-webpack-plugin": "^2.0.0",
     "opn": "^5.2.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "svg-sprite-loader": "^3.6.2",
+    "svgo": "^1.0.4",
+    "svgo-loader": "^2.1.0",
+    "webpack-virtual-modules": "^0.1.8"
   },
   "dependencies": {
     "@nuxtjs/axios": "4.3.0",
-    "nuxt": "^1.3.0",
+    "nuxt": "1.0.0-rc11",
     "nuxt-i18n": "^2.1.0",
-    "vue-i18n": "^7.4.2"
+    "nuxtent": "^1.2.1",
+    "vue-i18n": "^7.4.2",
+    "vue-template-compiler": "^2.4.4"
   }
 }
