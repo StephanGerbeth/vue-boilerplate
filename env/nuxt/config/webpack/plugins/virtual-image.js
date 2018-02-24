@@ -100,7 +100,11 @@ VirtualModulesPlugin.prototype.apply = function (compiler) {
         // console.log(compiler);
         let p = getModulePath(path.resolve('src/', request.request), compiler);
         // console.log('path', p);
-        self.writeModule(p, self._staticOptions.handler(p));
+        new Promise(function (resolve, reject) {
+          self._staticOptions.handler(p, resolve);
+        }).then(function (data) {
+          self.writeModule(p, data);
+        });
       }
       cb();
     });
