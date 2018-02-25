@@ -29,9 +29,11 @@ module.exports = {
       defaultLocale: 'de',
       noPrefixDefaultLocale: false,
       redirectRootToLocale: 'de',
+      loadLanguagesAsync: true,
       vueI18n: {
-        messages: require('../../src/content/content.json'),
-        fallbackLocale: 'de'
+        messages: require('../../src/lang/content.json'),
+        fallbackLocale: 'de',
+        silentTranslationWarn: false
       },
       routes: {},
       ignorePaths: []

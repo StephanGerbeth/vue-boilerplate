@@ -34,6 +34,8 @@ export default {
   },
 
   data () {
+    // console.log(this);
+    // console.log(this.$options.content);
     return {
       headline: {
         content: this.$t('about.title')
@@ -42,7 +44,7 @@ export default {
   },
 
   head () {
-    console.log('toll', this.$route, this.$t('about.title'));
+    // console.log('toll', this.$route, this.$t('about.title'));
     return { title: this.$t('about.title') };
   }
 };

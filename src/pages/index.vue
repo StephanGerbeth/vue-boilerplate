@@ -10,7 +10,7 @@
 <script>
 export default {
   head () {
-    console.log('toll', this.$route);
+    // console.log('toll', this.$route);
     return { title: this.$t('home.title') };
   }
 };

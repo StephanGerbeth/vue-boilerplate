@@ -1,5 +1,5 @@
 const favicons = require('favicons');
-const source = './env/tools/logo.png'; // Source image(s). `string`, `buffer` or array of `string`
+const source = './src/static/favicon/favicon.png'; // Source image(s). `string`, `buffer` or array of `string`
 const configuration = require('./favicons/config');
 const fs = require('fs-extra');
 const path = require('path');
