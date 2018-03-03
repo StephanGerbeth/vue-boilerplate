@@ -5,7 +5,7 @@
     "hello": "hello world!"
   },
   "de": {
-    "test": "nachricht 12345678",
+    "test": "nachricht 1",
     "hello": "hallo welt"
   }
 }
@@ -13,7 +13,8 @@
 
 <template>
   <div>
-    {{test}} hello2 huhu234
+    <headline v-bind:content="$t('test')"></headline>
+  hello2 huhu234
     {{ $t('test') }}
   <br/>
 
@@ -21,10 +22,11 @@
 </template>
 
 <script>
+import Headline from '~/components/atoms/Headline';
+
 export default {
-  data () {
-    console.log(this.constructor.name);
-    return {test: this.$t('test')};
+  components: {
+    headline: Headline
   }
 };
 </script>

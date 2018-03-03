@@ -1,5 +1,5 @@
 <template>
-  <h1 class="Content__Title">{{ content }}</h1>
+  <h1>{{ content }}</h1>
 </template>
 
 <script>

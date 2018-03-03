@@ -2,10 +2,11 @@
 /.nuxt
 /dist
 /node_modules
+/env/nuxt/cert
+
 /src/static/favicon/*
 !/src/static/favicon/favicon.png
 
-#/env/nuxt/config/global/favicon.json
 
 # IntelliJ project files
 .idea
@@ -20,3 +21,5 @@ logs
 
 # Files
 .DS_Store
+/package-lock.json
+/env/nuxt/config/global/favicon.json

@@ -28,6 +28,7 @@
 
   rules: {
     "no-debugger": 0,
-    "semi": [2, "always"]
+    "semi": [2, "always"],
+    "complexity": [2, { "max": 7 }]
   }
 }
