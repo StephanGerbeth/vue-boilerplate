@@ -19,7 +19,7 @@
     "browserslist": "npx browserslist",
     "favicon": "node ./env/tools/favicons.js",
     "corp-release": "corp-semantic-release",
-    "prepush": "corp-release"
+    "prepush": "npm run corp-release"
   },
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "github:StephanGerbeth/vue-i18n-loader",
