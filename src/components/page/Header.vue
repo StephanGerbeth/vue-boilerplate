@@ -17,8 +17,8 @@ export default {
     navigation: {
       type: Array,
       required: true,
-      default: function() {
-        return []
+      default: function () {
+        return [];
       }
     }
   }
