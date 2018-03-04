@@ -1,3 +1,13 @@
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/StephanGerbeth/vue-boilerplate/compare/v1.5.0...v1.6.0) (2018-03-04)
+
+
+### Features
+
+* **pencil:** add 'graphiteWidth' option ([435e128](https://github.com/StephanGerbeth/vue-boilerplate/commit/435e128))
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.0.0...v1.5.0) (2018-03-04)
 
