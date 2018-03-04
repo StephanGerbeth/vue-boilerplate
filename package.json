@@ -1,6 +1,6 @@
 {
   "name": "vue-boilerplate",
-  "version": "1.6.28",
+  "version": "1.6.37",
   "description": "Grabarz & Partner Boilerplate",
   "author": "Stephan Gerbeth",
   "license": "MIT",
@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "npm run favicon",
-    "test": "npm run lint",
+    "test": "npm run lint && npm run release",
     "dev": "cross-env NODE_ENV=development node ./env/nuxt/server.js",
     "build": "cross-env NODE_ENV=build nuxt build --config-file env/nuxt/config.js",
     "start": "cross-env NODE_ENV=production node ./env/nuxt/server.js",
@@ -19,7 +19,7 @@
     "browserslist": "npx browserslist",
     "favicon": "node ./env/tools/favicons.js",
     "release": "standard-version",
-    "postcommit": "corp-semantic-release"
+    "precommit": "npm run lint"
   },
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "^0.3.0",
