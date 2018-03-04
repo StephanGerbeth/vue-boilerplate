@@ -18,7 +18,8 @@
     "lint": "eslint --fix --ext .js,.vue --ext .json --ignore-path .gitignore ./",
     "browserslist": "npx browserslist",
     "favicon": "node ./env/tools/favicons.js",
-    "precommit": "npm run test"
+    "precommit": "npm run test",
+    "corp-semantic": "corp-semantic-release"
   },
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "github:StephanGerbeth/vue-i18n-loader",
