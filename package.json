@@ -1,6 +1,6 @@
 {
   "name": "vue-boilerplate",
-  "version": "1.6.44",
+  "version": "1.6.39",
   "description": "Grabarz & Partner Boilerplate",
   "author": "Stephan Gerbeth",
   "license": "MIT",
@@ -18,8 +18,8 @@
     "lint": "eslint --fix --ext .js,.vue --ext .json --ignore-path .gitignore ./",
     "browserslist": "npx browserslist",
     "favicon": "node ./env/tools/favicons.js",
-    "release": "standard-version --no-verify && git push --follow-tags origin master",
-    "precommit": "npm run release"
+    "release": "standard-version --no-verify",
+    "precommit": "npm run lint"
   },
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "^0.3.0",
