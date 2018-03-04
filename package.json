@@ -1,6 +1,6 @@
 {
   "name": "vue-boilerplate",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Grabarz & Partner Boilerplate",
   "author": "Stephan Gerbeth",
   "license": "MIT",
@@ -20,9 +20,7 @@
     "favicon": "node ./env/tools/favicons.js",
     "corp-release": "corp-semantic-release --pre-commit test"
   },
-  "pre-commit": [
-
-  ],
+  "pre-commit": [],
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "github:StephanGerbeth/vue-i18n-loader",
     "babel-eslint": "^8.2.1",
