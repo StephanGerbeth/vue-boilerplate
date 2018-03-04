@@ -1,6 +1,13 @@
 language: node_js
 before_install:
   - echo -e "machine github.com\n  login $GITHUB_TOKEN" >> ~/.netrc
-after_success:
+before_deploy:
   - npm run release
-  - git push --follow-tags origin master
+deploy:
+  provider: releases
+  api_key: "$GITHUB_TOKEN"
+  file_glob: true
+  file: *
+  skip_cleanup: true
+  on:
+    tags: true
