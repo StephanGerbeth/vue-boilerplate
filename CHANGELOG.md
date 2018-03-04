@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.6.44"></a>
+## [1.6.44](https://github.com/StephanGerbeth/vue-boilerplate/compare/v1.6.43...v1.6.44) (2018-03-04)
+
+
+
 <a name="1.6.43"></a>
 ## [1.6.43](https://github.com/StephanGerbeth/vue-boilerplate/compare/v1.6.42...v1.6.43) (2018-03-04)
 
