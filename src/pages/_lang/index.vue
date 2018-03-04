@@ -1,9 +1,18 @@
+<i18n>
+{
+  "de": {
+    "text": "Ich bin die Startseite12"
+  },
+  "en": {
+    "text": "I'm the homepage"
+  }
+}
+</i18n>
+
 <template>
   <div class="Content">
-    <div class="container">
-      <h1 class="Content__Title">Headline</h1>
-      <p>{{ $t('home.introduction') }}</p>
-    </div>
+    <h1>Headline</h1>
+    <p>{{ $t('text') }}</p>
   </div>
 </template>
 

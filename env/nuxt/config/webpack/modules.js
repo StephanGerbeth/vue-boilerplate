@@ -4,6 +4,10 @@ module.exports = function (module) {
 
   let vueLoader = module.rules.find((rule) => rule.loader === 'vue-loader');
   vueLoader.options.loaders.i18n = '@kazupon/vue-i18n-loader';
+  vueLoader.options.cssModules = {
+    localIdentName: '[path][name]_[local]_[hash:base64:5]',
+    camelCase: true
+  };
 
   let list = [].concat(...[
     require('./modules/svg-sprite')(module.rules),

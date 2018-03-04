@@ -10,7 +10,6 @@
   }
 }
 </i18n>
-<i18n src="~/locales/_lang/about.json"></i18n>
 
 <template>
   <div>

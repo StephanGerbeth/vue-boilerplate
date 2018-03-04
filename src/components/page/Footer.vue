@@ -1,17 +1,26 @@
 <template>
   <footer>
     <nav>
-      <ul>
-        <li>
-          Home
-        </li>
-        <li>
-          Link1
-        </li>
-        <li>
-          Link2
-        </li>
-      </ul>
+      <link-list v-bind:list="navigation"></link-list>
     </nav>
   </footer>
 </template>
+
+<script>
+import LinkList from '~/components/molecules/LinkList';
+
+export default {
+  components: {
+    'link-list': LinkList
+  },
+  props: {
+    navigation: {
+      type: Array,
+      required: true,
+      default: function() {
+        return []
+      }
+    }
+  }
+};
+</script>

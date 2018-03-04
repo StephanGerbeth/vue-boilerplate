@@ -1,0 +1,10 @@
+{
+  "en": {
+    "test": "message2",
+    "hello": "hello world!"
+  },
+  "de": {
+    "test": "headline1",
+    "hello": "hallo welt"
+  }
+}

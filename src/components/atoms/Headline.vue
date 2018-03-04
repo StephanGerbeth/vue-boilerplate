@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ content }}</h1>
+  <h1 :class="$style.root">{{ content }}<div :class="$style.aha">ola</div></h1>
 </template>
 
 <script>
@@ -13,3 +13,13 @@ export default {
   }
 };
 </script>
+
+<style module>
+.root {
+  color: red;
+}
+
+.aha {
+  color: green;
+}
+</style>

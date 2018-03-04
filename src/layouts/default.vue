@@ -1,10 +1,10 @@
 <template>
   <div>
-    <page-header></page-header>
+    <page-header v-bind:navigation="$t('header.navigation')"></page-header>
     <main>
       <nuxt/>
     </main>
-    <page-footer></page-footer>
+    <page-footer v-bind:navigation="$t('footer.navigation')"></page-footer>
   </div>
 </template>
 
