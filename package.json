@@ -1,6 +1,6 @@
 {
   "name": "vue-boilerplate",
-  "version": "1.0.6",
+  "version": "0.0.0-development",
   "description": "Grabarz & Partner Boilerplate",
   "author": "Stephan Gerbeth",
   "license": "MIT",
@@ -18,9 +18,9 @@
     "lint": "eslint --fix --ext .js,.vue --ext .json --ignore-path .gitignore ./",
     "browserslist": "npx browserslist",
     "favicon": "node ./env/tools/favicons.js",
-    "release": "corp-semantic-release --pre-commit test"
+    "corp-release": "corp-semantic-release",
+    "prepush": "corp-release"
   },
-
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "github:StephanGerbeth/vue-i18n-loader",
     "babel-eslint": "^8.2.1",
@@ -41,12 +41,12 @@
     "favicons": "^4.8.6",
     "fs-extra": "^5.0.0",
     "httpolyglot": "^0.1.2",
+    "husky": "^0.14.3",
     "imagemin-jpeg-recompress": "^5.1.0",
     "imagemin-mozjpeg": "^7.0.0",
     "imagemin-webp": "^4.1.0",
     "imagemin-webpack-plugin": "^2.0.0",
     "opn": "^5.2.0",
-    "pre-commit": "^1.2.2",
     "svg-sprite-loader": "^3.6.2",
     "svgo": "^1.0.4",
     "svgo-loader": "^2.1.0",
