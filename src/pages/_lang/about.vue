@@ -1,7 +1,7 @@
 <i18n>
 {
   "en": {
-    "test": "message23",
+    "test": "message23456",
     "hello": "hello world!"
   },
   "de": {

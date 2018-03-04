@@ -21,8 +21,7 @@
     "corp-release": "corp-semantic-release"
   },
   "pre-commit": [
-    "test",
-    "corp-release"
+    "test"
   ],
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "github:StephanGerbeth/vue-i18n-loader",
