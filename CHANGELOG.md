@@ -1,3 +1,55 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="1.6.6"></a>
+## [1.6.6](https://github.com/StephanGerbeth/vue-boilerplate/compare/v1.6.1...v1.6.6) (2018-03-04)
+
+
+### Bug Fixes
+
+* **pencil:** stop graphite breaking when too much pressure applied ([cfcd654](https://github.com/StephanGerbeth/vue-boilerplate/commit/cfcd654))
+* **pencil:** stop graphite breaking when too much pressure applied ([f5e36f6](https://github.com/StephanGerbeth/vue-boilerplate/commit/f5e36f6))
+* **pencil:** stop graphite breaking when too much pressure applied ([9cd8d1d](https://github.com/StephanGerbeth/vue-boilerplate/commit/9cd8d1d))
+* **pencil:** stop graphite breaking when too much pressure applied ([a6443ed](https://github.com/StephanGerbeth/vue-boilerplate/commit/a6443ed))
+* **pencil:** stop graphite breaking when too much pressure applied ([4d0462d](https://github.com/StephanGerbeth/vue-boilerplate/commit/4d0462d))
+* **pencil:** stop graphite breaking when too much pressure applied ([ea7ad06](https://github.com/StephanGerbeth/vue-boilerplate/commit/ea7ad06))
+* **pencil:** stop graphite breaking when too much pressure applied ([8b459d6](https://github.com/StephanGerbeth/vue-boilerplate/commit/8b459d6))
+
+
+
+<a name="1.6.6"></a>
+## [1.6.6](https://github.com/StephanGerbeth/vue-boilerplate/compare/v1.6.1...v1.6.6) (2018-03-04)
+
+
+### Bug Fixes
+
+* **pencil:** stop graphite breaking when too much pressure applied ([cfcd654](https://github.com/StephanGerbeth/vue-boilerplate/commit/cfcd654))
+* **pencil:** stop graphite breaking when too much pressure applied ([f5e36f6](https://github.com/StephanGerbeth/vue-boilerplate/commit/f5e36f6))
+* **pencil:** stop graphite breaking when too much pressure applied ([9cd8d1d](https://github.com/StephanGerbeth/vue-boilerplate/commit/9cd8d1d))
+* **pencil:** stop graphite breaking when too much pressure applied ([a6443ed](https://github.com/StephanGerbeth/vue-boilerplate/commit/a6443ed))
+* **pencil:** stop graphite breaking when too much pressure applied ([4d0462d](https://github.com/StephanGerbeth/vue-boilerplate/commit/4d0462d))
+* **pencil:** stop graphite breaking when too much pressure applied ([ea7ad06](https://github.com/StephanGerbeth/vue-boilerplate/commit/ea7ad06))
+* **pencil:** stop graphite breaking when too much pressure applied ([8b459d6](https://github.com/StephanGerbeth/vue-boilerplate/commit/8b459d6))
+
+
+
+<a name="1.6.5"></a>
+## [1.6.5](https://github.com/StephanGerbeth/vue-boilerplate/compare/v1.6.1...v1.6.5) (2018-03-04)
+
+
+### Bug Fixes
+
+* **pencil:** stop graphite breaking when too much pressure applied ([cfcd654](https://github.com/StephanGerbeth/vue-boilerplate/commit/cfcd654))
+* **pencil:** stop graphite breaking when too much pressure applied ([f5e36f6](https://github.com/StephanGerbeth/vue-boilerplate/commit/f5e36f6))
+* **pencil:** stop graphite breaking when too much pressure applied ([9cd8d1d](https://github.com/StephanGerbeth/vue-boilerplate/commit/9cd8d1d))
+* **pencil:** stop graphite breaking when too much pressure applied ([a6443ed](https://github.com/StephanGerbeth/vue-boilerplate/commit/a6443ed))
+* **pencil:** stop graphite breaking when too much pressure applied ([4d0462d](https://github.com/StephanGerbeth/vue-boilerplate/commit/4d0462d))
+* **pencil:** stop graphite breaking when too much pressure applied ([ea7ad06](https://github.com/StephanGerbeth/vue-boilerplate/commit/ea7ad06))
+* **pencil:** stop graphite breaking when too much pressure applied ([8b459d6](https://github.com/StephanGerbeth/vue-boilerplate/commit/8b459d6))
+
+
+
 <a name="1.6.4"></a>
 ## [1.6.4](https://github.com/StephanGerbeth/vue-boilerplate/compare/v1.6.1...v1.6.4) (2018-03-04)
 
@@ -87,6 +139,3 @@
 
 * **pencil:** stop graphite breaking when too much pressure applied ([5706227](https://github.com/StephanGerbeth/vue-boilerplate/commit/5706227))
 * **pencil:** stop graphite breaking when too much pressure applied ([9e07af2](https://github.com/StephanGerbeth/vue-boilerplate/commit/9e07af2))
-
-
-
