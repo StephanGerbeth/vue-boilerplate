@@ -1,3 +1,16 @@
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.0.0...v1.5.0) (2018-03-04)
+
+
+### Features
+
+* **pencil:** add 'graphiteWidth' option ([951b1c2](https://github.com/StephanGerbeth/vue-boilerplate/commit/951b1c2))
+* **pencil:** add 'graphiteWidth' option ([819fad8](https://github.com/StephanGerbeth/vue-boilerplate/commit/819fad8))
+* **pencil:** add 'graphiteWidth' option ([2efd7b8](https://github.com/StephanGerbeth/vue-boilerplate/commit/2efd7b8))
+* **pencil:** add 'graphiteWidth' option ([32f5b24](https://github.com/StephanGerbeth/vue-boilerplate/commit/32f5b24))
+
+
+
 <a name="0.0.0"></a>
 # [0.0.0](https://github.com/StephanGerbeth/vue-boilerplate/compare/v1.0.0...v0.0.0) (2018-03-04)
 
