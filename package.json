@@ -47,6 +47,7 @@
     "imagemin-webpack-plugin": "^2.0.0",
     "opn": "^5.2.0",
     "pre-commit": "^1.2.2",
+    "semantic-release": "^12.4.1",
     "svg-sprite-loader": "^3.6.2",
     "svgo": "^1.0.4",
     "svgo-loader": "^2.1.0",
