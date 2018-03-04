@@ -1,3 +1,13 @@
+<a name="1.6.1"></a>
+## [1.6.1](https://github.com/StephanGerbeth/vue-boilerplate/compare/v1.6.0...v1.6.1) (2018-03-04)
+
+
+### Bug Fixes
+
+* **pencil:** stop graphite breaking when too much pressure applied ([0b4a286](https://github.com/StephanGerbeth/vue-boilerplate/commit/0b4a286))
+
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/StephanGerbeth/vue-boilerplate/compare/v1.5.0...v1.6.0) (2018-03-04)
 
