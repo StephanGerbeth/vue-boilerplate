@@ -19,7 +19,7 @@
     "browserslist": "npx browserslist",
     "favicon": "node ./env/tools/favicons.js",
     "release": "standard-version",
-    "postcommit": "standard-version"
+    "postreceive": "standard-version"
   },
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "^0.3.0",
