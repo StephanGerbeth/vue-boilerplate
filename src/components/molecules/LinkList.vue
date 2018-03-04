@@ -21,3 +21,10 @@ export default {
   }
 };
 </script>
+
+<style module>
+:global(a.nuxt-link-active) {
+  color: red;
+}
+
+</style>

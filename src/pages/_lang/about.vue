@@ -15,8 +15,11 @@
 <template>
   <div>
     <headline v-bind:content="$t('test')"></headline>
-  hello2 huhu234 {{$t('configxyz')}}
+    hello2 huhu234 {{$t('configxyz')}}
     {{ $t('test') }}
+    <img src="~/assets/image.svg" />
+    <img src="~/assets/image2.svg" />
+    <img src="~/assets/image0.png.webp" />
   <br/>
 
   </div>
