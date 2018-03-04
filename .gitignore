@@ -21,5 +21,4 @@ logs
 
 # Files
 .DS_Store
-/package-lock.json
 /env/nuxt/config/global/favicon.json
