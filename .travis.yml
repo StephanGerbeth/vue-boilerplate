@@ -3,4 +3,4 @@ before_install:
   - echo -e "machine github.com\n  login $GITHUB_TOKEN" >> ~/.netrc
 after_success:
   - npm run release
-  - git push --follow-tags origin master && npm publish
+  - git push --follow-tags origin master
