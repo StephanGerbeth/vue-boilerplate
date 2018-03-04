@@ -18,7 +18,7 @@
     "lint": "eslint --fix --ext .js,.vue --ext .json --ignore-path .gitignore ./",
     "browserslist": "npx browserslist",
     "favicon": "node ./env/tools/favicons.js",
-    "release": "corp-semantic-release",
+    "release": "corp-semantic-release --branch master",
     "precommit": "npm run lint"
   },
   "devDependencies": {
