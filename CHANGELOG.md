@@ -1,3 +1,23 @@
+<a name="0.0.0"></a>
+# [0.0.0](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.0.14...v0.0.0) (2018-03-05)
+
+
+### Bug Fixes
+
+* **pencil:** stop graphite breaking when too much pressure applied ([eb9aaec](https://github.com/StephanGerbeth/vue-boilerplate/commit/eb9aaec))
+
+
+
+<a name="0.0.15"></a>
+## [0.0.15](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.0.14...v0.0.15) (2018-03-05)
+
+
+### Bug Fixes
+
+* **pencil:** stop graphite breaking when too much pressure applied ([eb9aaec](https://github.com/StephanGerbeth/vue-boilerplate/commit/eb9aaec))
+
+
+
 # Change Log
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
