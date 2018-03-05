@@ -5,17 +5,16 @@
     "hello": "hello world!"
   },
   "de": {
-    "test": "nachricht 12345",
+    "test": "nachricht 12345678",
     "hello": "hallo welt"
   }
 }
 </i18n>
 <i18n src="~/locales/_lang/about.json"></i18n>
-
 <template>
   <div>
     <headline v-bind:content="$t('test')"></headline>
-    hello2 {{$t('configxyz')}}
+    hello22 {{$t('configxyz')}}
     {{ $t('test') }}
     <img src="~/assets/image.svg" />
     <img src="~/assets/image2.svg" />
