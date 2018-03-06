@@ -2,7 +2,7 @@ language: node_js
 branches:
   only:
     - master
-# before_install:
-#   - echo -e "machine github.com\n  login $GITHUB_TOKEN" >> ~/.netrc
+before_install:
+  - echo -e "machine github.com\n  login $GITHUB_TOKEN" >> ~/.netrc
 after_success:
   - npm run release
