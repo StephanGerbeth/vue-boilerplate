@@ -8,6 +8,11 @@
     "node": ">=9.4.0"
   },
   "main": "index.js",
+  "standard-version": {
+    "scripts": {
+      "postcommit": "export MSG=$(git log -1 --pretty=%B) && git commit --amend -m '$MSG [ci skip]'"
+    }
+  },
   "scripts": {
     "postinstall": "npm run favicon",
     "test": "npm run lint",

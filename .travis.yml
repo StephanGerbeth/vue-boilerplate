@@ -5,9 +5,5 @@ before_install:
 after_success:
   - ci-skipper on
   - npm run release
-  - export MSG=$(git log -1 --pretty=%B)
-  - echo $MSG
-  - git commit --amend -m "$MSG [ci skip]"
   - git push origin HEAD:master
-  - git commit -m "$MSG [ci skip]"
   - git push --tags
