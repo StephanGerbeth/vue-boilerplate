@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.0.6"></a>
+## [0.0.6](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.0.5...v0.0.6) (2018-03-06)
+
+
+### Bug Fixes
+
+* **pencil:** stop graphite breaking when too much pressure applied ([77bcd3d](https://github.com/StephanGerbeth/vue-boilerplate/commit/77bcd3d))
+
+
+
 <a name="0.0.5"></a>
 ## [0.0.5](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.0.4...v0.0.5) (2018-03-06)
 
