@@ -24,7 +24,7 @@
     "lint": "eslint --fix --ext .js,.vue --ext .json --ignore-path .gitignore ./",
     "browserslist": "npx browserslist",
     "favicon": "node ./env/tools/favicons.js",
-    "release": "standard-version --no-verify",
+    "release": "standard-version",
     "precommit": "npm run lint",
     "semantic-release": "semantic-release"
   },
