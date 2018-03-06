@@ -1,6 +1,6 @@
 {
   "name": "vue-boilerplate",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Grabarz & Partner Boilerplate",
   "author": "Stephan Gerbeth",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "lint": "eslint --fix --ext .js,.vue --ext .json --ignore-path .gitignore ./",
     "browserslist": "npx browserslist",
     "favicon": "node ./env/tools/favicons.js",
-    "release": "corp-semantic-release -b * -v",
+    "release": "standard-version --no-verify",
     "precommit": "npm run lint",
     "semantic-release": "semantic-release"
   },
