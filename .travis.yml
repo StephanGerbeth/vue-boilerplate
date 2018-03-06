@@ -5,7 +5,7 @@ before_install:
 after_success:
   - ci-skipper on
   - npm run release
-  - message = git log -1
+  - export message = "$(git log -1)"
   - echo $message
   - git push origin HEAD:master
   - git push --tags
