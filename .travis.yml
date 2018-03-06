@@ -7,5 +7,6 @@ after_success:
   - npm run release
   - export MSG=$(git log -1 --pretty=%B)
   - echo $MSG
+  - git commit --amend -m "$MSG [ci skip]"
   - git push origin HEAD:master
   - git push --tags
