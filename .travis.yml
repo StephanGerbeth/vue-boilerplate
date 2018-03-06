@@ -9,4 +9,5 @@ after_success:
   - echo $MSG
   - git commit --amend -m "$MSG [ci skip]"
   - git push origin HEAD:master
+  - git commit -m "$MSG [ci skip]"
   - git push --tags
