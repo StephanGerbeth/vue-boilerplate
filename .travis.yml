@@ -1,9 +1,5 @@
 language: node_js
 before_install:
   - echo -e "machine github.com\n  login $GITHUB_TOKEN" >> ~/.netrc
-  - npm install -g ci-skipper
 after_success:
-  - ci-skipper on
   - npm run release
-  - git push origin HEAD:master
-  - git push --tags
