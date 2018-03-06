@@ -10,7 +10,7 @@
   "main": "index.js",
   "standard-version": {
     "scripts": {
-      "postcommit": "export MSG=$(git log -1 --pretty=%B) && git commit --amend -m '$MSG [ci skip]'"
+      "postcommit": "MSG=$(git log -1 --pretty=%B) && git commit --amend -m \"$MSG [ci skip]\""
     }
   },
   "scripts": {
