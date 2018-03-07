@@ -4,6 +4,7 @@ branches:
   - master
 after_success:
   - npm run release
+  - echo $TRAVIS_BRANCH
   - git push --follow-tags https://$GH_TOKEN@github.com/StephanGerbeth/vue-boilerplate HEAD:master
 env:
   global:
