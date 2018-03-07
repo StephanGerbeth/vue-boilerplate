@@ -3,7 +3,7 @@ branches:
   only:
   - master
 after_success:
-  - echo -e "machine github.com\n  login $GH_TOKEN" >> ~/.netrc
+  - git remote set-url origin git@github.com:StephanGerbeth/vue-boilerplate.git
   - npm run release
 env:
   global:
