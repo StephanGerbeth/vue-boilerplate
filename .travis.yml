@@ -3,6 +3,7 @@ branches:
   only:
   - master
 after_success:
+  - git remote add origin https://${GH_TOKEN}@github.com/StephanGerbeth/vue-boilerplate.git
   - npm run release
 env:
   global:
