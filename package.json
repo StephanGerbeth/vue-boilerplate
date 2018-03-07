@@ -11,7 +11,7 @@
   "standard-version": {
     "scripts": {
       "postcommit": "git commit --amend -m \"$(git log -1 --pretty=%B) [ci skip]\"",
-      "posttag": "git push origin HEAD:master && git push --tags"
+      "posttag": "git push --quiet --set-upstream origin HEAD:master && git push --tags"
     }
   },
   "scripts": {
