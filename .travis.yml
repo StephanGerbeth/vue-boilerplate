@@ -2,14 +2,8 @@ language: node_js
 branches:
   only:
   - master
-before_install:
-  - echo -e "machine github.com\n  login $GITHUB_TOKEN" >> ~/.netrc
 after_success:
   - npm run release
-deploy:
-  provider: releases
-  api_key:
-    secure: ESKhU5KTz3ayQ5fP9wfFc69d6LeBqFTZ+4NGP/qj3qCdly9df5+2Sz4iHOhl9C5OICpgU9TVoBE9nk2K8XUJ7RVi118VWT4zyBPgOmnhwzBJBTDrVchUPmHbsU3UKF+GKFSQM4jJ2vOa7VtKLw6biLbEYTed13RD0XuGB7mJA/iofzcaah98RqXrvRf/FP+nAeP2UpalSasRn6tYPrEumBCDTRYJCYaDGcAfz3vIkzIaqFHnAWGiY6SJGHnEj3V0izrBSLdlpK83+b3WZ3Bbg4/9I3FSVUEDOTbRPbFvHS+DhF2SnvBuweXdtA53ZOaxQQ21nkn8hd9mt7GzAgfTUjbkkeSmBv07N8bwZ7AArEzVnFe3OVI/9smLN25LAotVJ8HSg0YF8V6Jwl01Iziotl82Euyiw1210e7naI9o1oYbdSpp4kwpick1/wiETXmpQ0URGQIYrKlXOqm5X9YnRjL5eJBPzz93853Ch7lsHlQwxaqJwmiXCEUq3Ks5O9Qu4l3qgwOxMvoLZTx9yCAN6+ESI7cqk42/+wH2vDPQcjPU/UHhQRNLjXoQfW/tMgR6P+R5GIQA2b/WLqksSeYh9gyUE1UWYIms9q46RmPNVQJ1rX/Dy/l/TU0rJYyWAI+2XToeSN7E/dJkO2GFmaAKxmAdAY5sYFnbrBjFk7vuxO4=
-  file: '*'
-  on:
-    repo: StephanGerbeth/vue-boilerplate
+env:
+  global:
+    secure: O6MZLL2iFyBn85t9IFA4FPFujf3xEn4B5CJAP4aUGpDTXHrvG+5Eyj2kU7carBN38uVgb3VDJ/SoWybHfo7o+wy0jIEPEct/xmfb1vzckbLaR+62OlrLDoqTs/jlNLVeQWo46WwYdAVUIdwaCoboi98S7sdbrOs/sWmVKnNtmnlLRuT6hamZMS43KLSpZfq7n913jEZrkHFGxILki/yrnd14+0bTTy2d1PQYMawy2lj+PdmNGX+to+QBTeTtaY0WCc4INXZQt2ckNy5NMeP8UgagITwRj1sJpAv41lCuhRIQ+ZvuverfvO+ZQQ6K6TaeC2VnnlYs09fi4GOTzzJmNZe+2kWBCywy+OIle7jIjFH5hxmds1Li88MCaplBlRi7eh8rQtxrmvWT+4U/kZ7eZFHf/tdi2rGD5lSpGVEJeHf4oWdunaVlv8P7T1uWxFIDIxL6MtlJiYeINO2+9anR369kWUsr2hNmuNzY77AZrPTD+wyfZg9v+2QFclwUlW0vGKwXDlJqqH6cUx2bSZ6uByRdpUMpApoJsV2GbBM0R9Yn+jNgupNZLC5cjeClcuRORB4gy+PTUFWUUaHH4CXbxYj0GoduI9+AZPu3LfLhUOiC5VpOKeXlOWW9IGV3o6vf8Zw8nPNmLk/VFqyOY4QxtKRHbD6twAu/qMOzEKYh2Pc=
