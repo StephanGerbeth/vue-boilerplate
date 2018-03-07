@@ -4,7 +4,7 @@ branches:
   - master
 after_success:
   - npm run release
-  - git push --follow-tags https://$GITHUB_TOKEN@github.com/StephanGerbeth/vue-boilerplate
+  - git push --follow-tags https://$GITHUB_TOKEN@github.com/$TRAVIS_REPO_SLUG $TRAVIS_BRANCH
 env:
   global:
     secure: O6MZLL2iFyBn85t9IFA4FPFujf3xEn4B5CJAP4aUGpDTXHrvG+5Eyj2kU7carBN38uVgb3VDJ/SoWybHfo7o+wy0jIEPEct/xmfb1vzckbLaR+62OlrLDoqTs/jlNLVeQWo46WwYdAVUIdwaCoboi98S7sdbrOs/sWmVKnNtmnlLRuT6hamZMS43KLSpZfq7n913jEZrkHFGxILki/yrnd14+0bTTy2d1PQYMawy2lj+PdmNGX+to+QBTeTtaY0WCc4INXZQt2ckNy5NMeP8UgagITwRj1sJpAv41lCuhRIQ+ZvuverfvO+ZQQ6K6TaeC2VnnlYs09fi4GOTzzJmNZe+2kWBCywy+OIle7jIjFH5hxmds1Li88MCaplBlRi7eh8rQtxrmvWT+4U/kZ7eZFHf/tdi2rGD5lSpGVEJeHf4oWdunaVlv8P7T1uWxFIDIxL6MtlJiYeINO2+9anR369kWUsr2hNmuNzY77AZrPTD+wyfZg9v+2QFclwUlW0vGKwXDlJqqH6cUx2bSZ6uByRdpUMpApoJsV2GbBM0R9Yn+jNgupNZLC5cjeClcuRORB4gy+PTUFWUUaHH4CXbxYj0GoduI9+AZPu3LfLhUOiC5VpOKeXlOWW9IGV3o6vf8Zw8nPNmLk/VFqyOY4QxtKRHbD6twAu/qMOzEKYh2Pc=
