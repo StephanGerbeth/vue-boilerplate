@@ -10,8 +10,7 @@
   "main": "index.js",
   "standard-version": {
     "scripts": {
-      "postcommit": "git commit --amend -m \"$(git log -1 --pretty=%B) [ci skip]\"",
-      "posttag": "git push -u origin HEAD:master && git push -u --tags"
+      "postcommit": "git commit --amend -m \"$(git log -1 --pretty=%B) [ci skip]\""
     }
   },
   "scripts": {
