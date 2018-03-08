@@ -57,6 +57,7 @@
     "svgo": "^1.0.4",
     "svgo-loader": "^2.1.0",
     "validate-commit-msg": "^2.14.0",
+    "webpack-monitor": "^1.0.14",
     "webpack-virtual-modules": "^0.1.8"
   },
   "dependencies": {

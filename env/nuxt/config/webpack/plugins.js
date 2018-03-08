@@ -19,7 +19,8 @@ module.exports = function (plugins, srcDir) {
     },
     // require('./plugins/virtual-files'),
     require('./plugins/imagemin'),
-    require('./plugins/svg-sprite')
+    require('./plugins/svg-sprite'),
+    require('./plugins/monitor')
   ]).reduce(function (result, item) {
     if (item.env[process.env.NODE_ENV]) {
       result.push(item.plugin);
