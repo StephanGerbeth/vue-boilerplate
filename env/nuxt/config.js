@@ -11,7 +11,7 @@ module.exports = {
   build: {
     analyze: false,
 
-    vendor: ['vue-i18n'],
+    // vendor: ['vue-i18n'],
 
     extend (config, { isClient }) {
       webpackPlugins(config.plugins, this.options.srcDir);
