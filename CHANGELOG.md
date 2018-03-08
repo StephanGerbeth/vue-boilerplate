@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.0.30"></a>
+## [0.0.30](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.0.29...v0.0.30) (2018-03-08)
+
+
+### Bug Fixes
+
+* cleanup package.json & added commit message validation ([b54ab35](https://github.com/StephanGerbeth/vue-boilerplate/commit/b54ab35))
+
+
+
 <a name="0.0.29"></a>
 ## [0.0.29](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.0.28...v0.0.29) (2018-03-07)
 
