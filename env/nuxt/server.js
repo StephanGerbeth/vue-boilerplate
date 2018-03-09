@@ -1,6 +1,7 @@
 const { Nuxt, Builder } = require('nuxt');
 const app = require('express')();
 const fs = require('fs');
+const path = require('path');
 const httpolyglot = require('httpolyglot');
 const port = process.env.PORT || 8050;
 const opn = require('opn');
@@ -19,18 +20,24 @@ if (config.dev) {
     });
 }
 
-var options = {
-  key: fs.readFileSync('./env/nuxt/cert/myserver.key'),
-  cert: fs.readFileSync('./env/nuxt/cert/STAR_gp-home_net.crt'),
-  ca: [
-    fs.readFileSync('./env/nuxt/cert/AddTrustExternalCARoot.crt'),
-    fs.readFileSync('./env/nuxt/cert/COMODORSAAddTrustCA.crt'),
-    fs.readFileSync('./env/nuxt/cert/COMODORSADomainValidationSecureServerCA.crt')
-  ],
-  requestCert: false,
-  rejectUnauthorized: false
-};
+let options = getOptions('./env/nuxt/cert');
 
 httpolyglot.createServer(options, app).listen(port, '0.0.0.0', function () {
   opn('http://localhost:8050', {app: ['google chrome', '--incognito']});
 });
+
+function getOptions (dir) {
+  if (fs.existsSync(dir)) {
+    return {
+      key: fs.readFileSync(path.join(dir, 'myserver.key')),
+      cert: fs.readFileSync(path.join(dir, 'STAR_gp-home_net.crt')),
+      ca: [
+        fs.readFileSync(path.join(dir, 'AddTrustExternalCARoot.crt')),
+        fs.readFileSync(path.join(dir, 'COMODORSAAddTrustCA.crt')),
+        fs.readFileSync(path.join(dir, 'COMODORSADomainValidationSecureServerCA.crt'))
+      ],
+      requestCert: false,
+      rejectUnauthorized: false
+    };
+  }
+}
