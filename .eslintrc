@@ -13,10 +13,12 @@
   env: {
     browser: true,
     node: true,
-    es6: true
+    es6: true,
+    mocha: true
   },
 
   plugins: [
+    'mocha',
     'json',
     'vue'
   ],
@@ -29,6 +31,7 @@
   rules: {
     "no-debugger": 0,
     "semi": [2, "always"],
-    "complexity": [2, { "max": 7 }]
+    "complexity": [2, { "max": 7 }],
+    "mocha/no-exclusive-tests": "error"
   }
 }
