@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.1.3...v0.1.4) (2018-03-09)
+
+
+### Bug Fixes
+
+* **travis:** updated build process ([cb7db33](https://github.com/StephanGerbeth/vue-boilerplate/commit/cb7db33))
+
+
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.1.2...v0.1.3) (2018-03-09)
 
