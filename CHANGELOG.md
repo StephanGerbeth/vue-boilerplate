@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.1.1...v0.1.2) (2018-03-08)
+
+
+### Bug Fixes
+
+* **config:** cleanup ([98eaf45](https://github.com/StephanGerbeth/vue-boilerplate/commit/98eaf45))
+* **travis:** cleanup yaml ([92128f2](https://github.com/StephanGerbeth/vue-boilerplate/commit/92128f2))
+* **travis:** install lib to compile imagemin-mozjpeg ([7803b2d](https://github.com/StephanGerbeth/vue-boilerplate/commit/7803b2d))
+* **travis:** mozjpeg lib install ([eadec15](https://github.com/StephanGerbeth/vue-boilerplate/commit/eadec15))
+
+
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.1.0...v0.1.1) (2018-03-08)
 
