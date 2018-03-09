@@ -19,7 +19,7 @@
     "dev": "cross-env NODE_ENV=development node ./env/nuxt/server.js",
     "build": "cross-env NODE_ENV=build nuxt build --config-file env/nuxt/config.js",
     "start": "npm run build && cross-env NODE_ENV=production node ./env/nuxt/server.js",
-    "static": "cross-env NODE_ENV=static nuxt generate --config-file env/nuxt/config.js",
+    "static": "npm run build && cross-env NODE_ENV=static nuxt generate --config-file env/nuxt/config.js",
     "lint": "eslint --fix --ext .js,.vue --ext .json --ignore-path .gitignore ./",
     "browserslist": "npx browserslist",
     "favicon": "node ./env/tools/favicons.js",
