@@ -6,7 +6,8 @@ before_install:
   - sudo apt-get install libtool automake autoconf nasm
 install:
   - npm install --no-optional
-  - npm run start
+  - npm run build
+script: xvfb-run make test
 after_success:
   - npm run release
   - git push --follow-tags https://$GH_TOKEN@github.com/$TRAVIS_REPO_SLUG HEAD:$TRAVIS_BRANCH
