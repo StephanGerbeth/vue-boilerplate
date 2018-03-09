@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.2.0...v0.2.1) (2018-03-09)
+
+
+### Bug Fixes
+
+* **travis:** run webserver ([b839acf](https://github.com/StephanGerbeth/vue-boilerplate/commit/b839acf))
+* **travis:** starting webserver ([e94022b](https://github.com/StephanGerbeth/vue-boilerplate/commit/e94022b))
+* **versioning:** added no-verify param to standard-version ([08d2221](https://github.com/StephanGerbeth/vue-boilerplate/commit/08d2221))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.1.4...v0.2.0) (2018-03-09)
 
