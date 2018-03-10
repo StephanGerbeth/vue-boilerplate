@@ -22,7 +22,7 @@ describe('testing javascript in the browser', function () {
         }).build();
     }
     console.log('return url');
-    return this.browser.get('http://localhost:8000/index.html');
+    return this.browser.get('http://localhost:8000/dist/de/index.html');
   });
 
   afterEach(function () {
