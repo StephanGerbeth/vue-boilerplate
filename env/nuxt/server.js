@@ -3,7 +3,7 @@ const app = require('express')();
 const fs = require('fs');
 const path = require('path');
 const httpolyglot = require('httpolyglot');
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8050;
 const opn = require('opn');
 
 // We instantiate Nuxt.js with the options
