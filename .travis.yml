@@ -20,7 +20,7 @@ before_install:
   - sudo apt-get install libtool automake autoconf nasm
 install:
   - npm install --no-optional
-  - npm run static
+  - npm run build
 before_script:
   - npm run start & # start a Web server
   - sleep 10 # give Web server some time to bind to sockets, etc
