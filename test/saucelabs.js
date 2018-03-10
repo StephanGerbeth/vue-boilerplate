@@ -4,6 +4,7 @@ var webdriver = require('selenium-webdriver');
 describe('testing javascript in the browser', function () {
   beforeEach(function () {
     if (process.env.SAUCE_USERNAME !== undefined) {
+      console.log('Username: ', process.env.SAUCE_USERNAME);
       this.browser = new webdriver.Builder()
         .usingServer('http://' + process.env.SAUCE_USERNAME + ':' + process.env.SAUCE_ACCESS_KEY + '@ondemand.saucelabs.com:80/wd/hub')
         .withCapabilities({
@@ -13,13 +14,14 @@ describe('testing javascript in the browser', function () {
           accessKey: process.env.SAUCE_ACCESS_KEY,
           browserName: 'chrome'
         }).build();
+      console.log('Tunnel build');
     } else {
       this.browser = new webdriver.Builder()
         .withCapabilities({
           browserName: 'chrome'
         }).build();
     }
-
+    console.log('return url');
     return this.browser.get('http://localhost:8050/de');
   });
 
