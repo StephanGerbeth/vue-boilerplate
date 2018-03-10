@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const httpolyglot = require('httpolyglot');
 const port = process.env.PORT || 8050;
-const opn = require('opn');
+// const opn = require('opn');
 
 // We instantiate Nuxt.js with the options
 let config = require('./config.js');
@@ -23,7 +23,7 @@ if (config.dev) {
 let options = getOptions('./env/nuxt/cert');
 
 httpolyglot.createServer(options, app).listen(port, '0.0.0.0', function () {
-  opn('http://localhost:8050', {app: ['google chrome', '--incognito']});
+  // opn('http://localhost:8050', {app: ['google chrome', '--incognito']});
 });
 
 function getOptions (dir) {
@@ -39,5 +39,7 @@ function getOptions (dir) {
       requestCert: false,
       rejectUnauthorized: false
     };
+  } else {
+    return {};
   }
 }
