@@ -31,6 +31,7 @@ describe('testing javascript in the browser', function () {
 
   it('should handle clicking on a headline', function (done) {
     var headline = this.browser.findElement(webdriver.By.css('h1'));
+    console.log('HEADLINE', headline);
     headline.click();
 
     headline.getText().then(function (txt) {
