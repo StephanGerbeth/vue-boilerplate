@@ -20,7 +20,7 @@ install:
   - npm install --no-optional
   - npm run build
 before_script:
-  - npm run start & # start a Web server
+  - npm run start # start a Web server
   - sleep 20 # give Web server some time to bind to sockets, etc
 after_success:
   - npm run release
