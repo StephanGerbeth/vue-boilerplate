@@ -2,6 +2,52 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.2"></a>
+## [0.2.2](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.2.1...v0.2.2) (2018-03-10)
+
+
+### Bug Fixes
+
+* **mocha:** added log ([ae1faad](https://github.com/StephanGerbeth/vue-boilerplate/commit/ae1faad))
+* **mocha:** added logs ([77e92d5](https://github.com/StephanGerbeth/vue-boilerplate/commit/77e92d5))
+* **mocha:** added timeout ([9d4a349](https://github.com/StephanGerbeth/vue-boilerplate/commit/9d4a349))
+* **package:** run mocha ([204c6ca](https://github.com/StephanGerbeth/vue-boilerplate/commit/204c6ca))
+* **saucelab:** added hostname to travis ([c971c3b](https://github.com/StephanGerbeth/vue-boilerplate/commit/c971c3b))
+* **saucelab:** capture headline text ([88c4f7f](https://github.com/StephanGerbeth/vue-boilerplate/commit/88c4f7f))
+* **saucelab:** changed callable url ([fa669d8](https://github.com/StephanGerbeth/vue-boilerplate/commit/fa669d8))
+* **saucelab:** changed url ([f2d30b8](https://github.com/StephanGerbeth/vue-boilerplate/commit/f2d30b8))
+* **saucelab:** open firefox ([ea29084](https://github.com/StephanGerbeth/vue-boilerplate/commit/ea29084))
+* **saucelab:** port to url ([54a2a8c](https://github.com/StephanGerbeth/vue-boilerplate/commit/54a2a8c))
+* **saucelab:** simplify test ([b0cc337](https://github.com/StephanGerbeth/vue-boilerplate/commit/b0cc337))
+* **saucelab:** test ([57688ed](https://github.com/StephanGerbeth/vue-boilerplate/commit/57688ed))
+* **saucelab:** test page ([e64d55a](https://github.com/StephanGerbeth/vue-boilerplate/commit/e64d55a))
+* **saucelab:** test page ([c392c9c](https://github.com/StephanGerbeth/vue-boilerplate/commit/c392c9c))
+* **saucelab:** updated port ([84137e1](https://github.com/StephanGerbeth/vue-boilerplate/commit/84137e1))
+* **saucelab:** updated port ([4ed87b7](https://github.com/StephanGerbeth/vue-boilerplate/commit/4ed87b7))
+* **saucelab:** updated port ([89d1d6f](https://github.com/StephanGerbeth/vue-boilerplate/commit/89d1d6f))
+* **saucelab:** updated port ([758504f](https://github.com/StephanGerbeth/vue-boilerplate/commit/758504f))
+* **saucelab:** updated port ([21d14c9](https://github.com/StephanGerbeth/vue-boilerplate/commit/21d14c9))
+* **saucelabs:** added log ([9d1144e](https://github.com/StephanGerbeth/vue-boilerplate/commit/9d1144e))
+* **saucelabs:** updated test routine ([e37fa00](https://github.com/StephanGerbeth/vue-boilerplate/commit/e37fa00))
+* **server:** do not call the browser at travis-ci ([ce45155](https://github.com/StephanGerbeth/vue-boilerplate/commit/ce45155))
+* **server:** removed browser opener ([c558afd](https://github.com/StephanGerbeth/vue-boilerplate/commit/c558afd))
+* **server:** test default port 80 ([b821f8f](https://github.com/StephanGerbeth/vue-boilerplate/commit/b821f8f))
+* **travis:** add new webserver ([09bded6](https://github.com/StephanGerbeth/vue-boilerplate/commit/09bded6))
+* **travis:** added cache rule & wait longer time for webserver ([8b5d7ed](https://github.com/StephanGerbeth/vue-boilerplate/commit/8b5d7ed))
+* **travis:** added xvfb ([8e7eecd](https://github.com/StephanGerbeth/vue-boilerplate/commit/8e7eecd))
+* **travis:** bug fix process ([a757bad](https://github.com/StephanGerbeth/vue-boilerplate/commit/a757bad))
+* **travis:** changed server to express ([6b823cd](https://github.com/StephanGerbeth/vue-boilerplate/commit/6b823cd))
+* **travis:** cleanup ([ad9b65a](https://github.com/StephanGerbeth/vue-boilerplate/commit/ad9b65a))
+* **travis:** removed sudo ([e3f1ef1](https://github.com/StephanGerbeth/vue-boilerplate/commit/e3f1ef1))
+* **travis:** removed xvfb ([c6a0ea2](https://github.com/StephanGerbeth/vue-boilerplate/commit/c6a0ea2))
+* **travis:** run static build ([53102f6](https://github.com/StephanGerbeth/vue-boilerplate/commit/53102f6))
+* **travis:** run webserver ([af21db5](https://github.com/StephanGerbeth/vue-boilerplate/commit/af21db5))
+* **travis:** run webserver ([40e83b0](https://github.com/StephanGerbeth/vue-boilerplate/commit/40e83b0))
+* **travis:** start web server with sudo provileges ([f30023e](https://github.com/StephanGerbeth/vue-boilerplate/commit/f30023e))
+* **travis:** webserver don't run in background ([3952c93](https://github.com/StephanGerbeth/vue-boilerplate/commit/3952c93))
+
+
+
 <a name="0.2.1"></a>
 ## [0.2.1](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.2.0...v0.2.1) (2018-03-09)
 
