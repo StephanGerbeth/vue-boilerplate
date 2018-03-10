@@ -22,7 +22,7 @@ install:
   - npm install --no-optional
   - npm run static
 before_script:
-  - python -m SimpleHTTPServer &
+  - python -m SimpleHTTPServer 8050 &
   - sleep 10 # give Web server some time to bind to sockets, etc
 after_success:
   - npm run release
