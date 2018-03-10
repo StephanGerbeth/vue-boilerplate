@@ -22,7 +22,7 @@ describe('testing javascript in the browser', function () {
         }).build();
     }
     console.log('return url');
-    return this.browser.get('http://travis.dev:8050/de/');
+    return this.browser.get('http://travis.dev/de/');
   });
 
   afterEach(function () {
