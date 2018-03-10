@@ -22,8 +22,8 @@ install:
   - npm install --no-optional
   - npm run build
 before_script:
-  - python -m SimpleHTTPServer
-  - sleep 20 # give Web server some time to bind to sockets, etc
+  - python -m SimpleHTTPServer &
+  - sleep 10 # give Web server some time to bind to sockets, etc
 after_success:
   - npm run release
   - git push --follow-tags https://$GH_TOKEN@github.com/$TRAVIS_REPO_SLUG HEAD:$TRAVIS_BRANCH
