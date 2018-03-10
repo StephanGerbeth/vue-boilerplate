@@ -14,6 +14,8 @@ cache:
 addons:
   sauce_connect:
     username: gerbeth
+  hosts:
+    - travis.dev
 before_install:
   - sudo apt-get install libtool automake autoconf nasm
 install:
