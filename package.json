@@ -15,7 +15,7 @@
   },
   "scripts": {
     "postinstall": "npm run favicon",
-    "test": "npx mocha",
+    "test": "npx mocha  --timeout 10000",
     "dev": "cross-env NODE_ENV=development node ./env/nuxt/server.js",
     "build": "cross-env NODE_ENV=build nuxt build --config-file env/nuxt/config.js",
     "start": "cross-env NODE_ENV=production node ./env/nuxt/server.js",
