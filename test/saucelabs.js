@@ -6,7 +6,7 @@ describe('testing javascript in the browser', function () {
     if (process.env.SAUCE_USERNAME !== undefined) {
       console.log('Username: ', process.env.SAUCE_USERNAME);
       this.browser = new webdriver.Builder()
-        .usingServer('http://' + process.env.SAUCE_USERNAME + ':' + process.env.SAUCE_ACCESS_KEY + '@localhost:4445/wd/hub')
+        .usingServer('http://' + process.env.SAUCE_USERNAME + ':' + process.env.SAUCE_ACCESS_KEY + '@localhost:8050/wd/hub')
         .withCapabilities({
           'tunnel-identifier': process.env.TRAVIS_JOB_NUMBER,
           build: process.env.TRAVIS_BUILD_NUMBER,
