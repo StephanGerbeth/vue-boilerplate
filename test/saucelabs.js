@@ -25,15 +25,5 @@ for (let capability in capabilities) {
         done();
       });
     });
-    it('kaboom', function (done) {
-      var headline = this.browser.findElement(webdriver.By.css('h1'));
-      // headline.click();
-
-      headline.getText().then(function (txt) {
-        console.log(txt);
-        // assert.equal(txt, 'Headline');
-        done();
-      });
-    });
   });
 }
