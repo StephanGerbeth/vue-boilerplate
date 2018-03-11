@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.3.0...v0.3.1) (2018-03-11)
+
+
+### Bug Fixes
+
+* **build:** add mocha call to travis.yaml ([90c813d](https://github.com/StephanGerbeth/vue-boilerplate/commit/90c813d))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.2.5...v0.3.0) (2018-03-11)
 
