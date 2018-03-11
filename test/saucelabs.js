@@ -16,14 +16,23 @@ for (let capability in capabilities) {
     });
 
     it('should handle clicking on a headline', function (done) {
-      var headline = this.browser.findElement(webdriver.By.css('h1'));
-      // headline.click();
+      this.browser.wait(webdriver.until.elementLocated(webdriver.By.css('h1')), 5 * 1000)
+        .then(el => {
+          return el.getText();
+        })
+        .then(txt => {
+          console.log(txt);
+          done();
+        });
 
-      headline.getText().then(function (txt) {
-        console.log(txt);
-        // assert.equal(txt, 'Headline');
-        done();
-      });
+      // var headline = this.browser.findElement(webdriver.By.css('h1'));
+      // // headline.click();
+      //
+      // headline.getText().then(function (txt) {
+      //   console.log(txt);
+      //   // assert.equal(txt, 'Headline');
+      //   done();
+      // });
     });
   });
 }
