@@ -1,7 +1,7 @@
 const {getBrowser} = require('./saucelabs/setup');
 var webdriver = require('selenium-webdriver');
 
-let capabilities = [{browserName: 'firefox'}, {browserName: 'chrome'}];
+let capabilities = [{browserName: 'firefox'}];
 
 for (let capability in capabilities) {
   describe('testing javascript in the browser', function () {
