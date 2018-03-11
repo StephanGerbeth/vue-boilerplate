@@ -4,14 +4,14 @@ var webdriver = require('selenium-webdriver');
 let capabilities = [{browserName: 'firefox'}, {browserName: 'chrome'}];
 
 for (let capability in capabilities) {
-  describe('testing javascript in the browser', function () {
+  describe('open browser:' + capabilities[capability].browserName, function () {
     before(function () {
       this.browser = getBrowser(capabilities[capability]);
       this.browser.get('http://localhost:8050/de/about');
     });
 
     after(function (...args) {
-      console.log(args);
+      console.log('quit browser:', capabilities[capability].browserName);
       return this.browser.quit();
     });
 
