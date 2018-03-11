@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.4"></a>
+## [0.2.4](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.2.3...v0.2.4) (2018-03-11)
+
+
+### Bug Fixes
+
+* **mocha:** replaced timeout option ([9f3c510](https://github.com/StephanGerbeth/vue-boilerplate/commit/9f3c510))
+* **saucelab:** async progress ([b7d17a3](https://github.com/StephanGerbeth/vue-boilerplate/commit/b7d17a3))
+* **saucelabs:** added additional browser ([c2247a6](https://github.com/StephanGerbeth/vue-boilerplate/commit/c2247a6))
+* **saucelabs:** increase timeout ([87c32e9](https://github.com/StephanGerbeth/vue-boilerplate/commit/87c32e9))
+* **saucelabs:** test ([7c0fbab](https://github.com/StephanGerbeth/vue-boilerplate/commit/7c0fbab))
+
+
+
 <a name="0.2.3"></a>
 ## [0.2.3](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.2.2...v0.2.3) (2018-03-11)
 
