@@ -16,7 +16,7 @@ for (let capability in capabilities) {
     });
 
     it('should handle clicking on a headline', function (done) {
-      this.browser.wait(webdriver.until.elementLocated(webdriver.By.css('h1')), 5 * 1000)
+      this.browser.wait(webdriver.until.elementLocated(webdriver.By.css('h1')), 60 * 1000)
         .then(el => {
           return el.getText();
         })
