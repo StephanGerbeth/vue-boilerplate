@@ -16,7 +16,7 @@ for (let capability in capabilities) {
     });
 
     it('should handle clicking on a headline', function (done) {
-      this.browser.wait(webdriver.until.elementLocated(webdriver.By.css('h1')), 60 * 1000)
+      this.browser.wait(webdriver.until.elementLocated(webdriver.By.css('h1')))
         .then(el => {
           return el.getText();
         })
@@ -24,15 +24,17 @@ for (let capability in capabilities) {
           console.log(txt);
           done();
         });
+    });
 
-      // var headline = this.browser.findElement(webdriver.By.css('h1'));
-      // // headline.click();
-      //
-      // headline.getText().then(function (txt) {
-      //   console.log(txt);
-      //   // assert.equal(txt, 'Headline');
-      //   done();
-      // });
+    it('should handle clicking on a headline', function (done) {
+      this.browser.wait(webdriver.until.elementLocated(webdriver.By.css('h1 > div')))
+        .then(el => {
+          return el.getText();
+        })
+        .then(txt => {
+          console.log(txt);
+          done();
+        });
     });
   });
 }
