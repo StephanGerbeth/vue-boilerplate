@@ -24,6 +24,8 @@ install:
 before_script:
   - npm run start & # start a Web server
   - sleep 10 # give Web server some time to bind to sockets, etc
+script:
+  - npx mocha
 after_success:
   - npm run release
   - git push --follow-tags https://$GH_TOKEN@github.com/$TRAVIS_REPO_SLUG HEAD:$TRAVIS_BRANCH
