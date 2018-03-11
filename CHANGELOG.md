@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.3"></a>
+## [0.2.3](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.2.2...v0.2.3) (2018-03-11)
+
+
+### Bug Fixes
+
+* **packages:** added forgotten package selenium-webdriver ([96529c0](https://github.com/StephanGerbeth/vue-boilerplate/commit/96529c0))
+* **saucelab:** multi browser test ([564f408](https://github.com/StephanGerbeth/vue-boilerplate/commit/564f408))
+* **saucelab:** test multi browser ([17a8c63](https://github.com/StephanGerbeth/vue-boilerplate/commit/17a8c63))
+* **saucelabs:** function call ([00c5f16](https://github.com/StephanGerbeth/vue-boilerplate/commit/00c5f16))
+* **saucelabs:** increase timeout limit ([7a4836f](https://github.com/StephanGerbeth/vue-boilerplate/commit/7a4836f))
+* **saucelabs:** test ([b8aed9b](https://github.com/StephanGerbeth/vue-boilerplate/commit/b8aed9b))
+
+
+
 <a name="0.2.2"></a>
 ## [0.2.2](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.2.1...v0.2.2) (2018-03-10)
 
