@@ -17,7 +17,7 @@ function getLocalBrowser (capability) {
 
 function getSaucelabsBrowser (capability) {
   return new webdriver.Builder()
-    .usingServer(getSaucelabsServerUrl)
+    .usingServer(getSaucelabsServerUrl())
     .withCapabilities(convertToSaucelabCapabilities(capability))
     .build();
 }
