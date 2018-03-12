@@ -5,12 +5,12 @@
     "hello": "hello world!"
   },
   "de": {
-    "test": "nachricht 12345678",
+    "test": "nachricht 12",
     "hello": "hallo welt"
   }
 }
 </i18n>
-<i18n src="~/locales/_lang/about.json"></i18n>
+
 <template>
   <div>
     <headline v-bind:content="$t('test')"></headline>
