@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.2"></a>
+## [0.3.2](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.3.1...v0.3.2) (2018-03-12)
+
+
+### Bug Fixes
+
+* **content:** test update ([89b28e5](https://github.com/StephanGerbeth/vue-boilerplate/commit/89b28e5))
+
+
+
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/StephanGerbeth/vue-boilerplate/compare/v0.3.0...v0.3.1) (2018-03-11)
 
